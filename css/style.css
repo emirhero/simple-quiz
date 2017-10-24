@@ -1,0 +1,33 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #e0e0e0;
+}
+#quiz {
+  margin: 3em auto;
+  padding: 1em 2em;
+  width: 30%;
+  background: #f4f4f4;
+  color: #2b2b2b;
+  text-align: center;
+  border-radius: 5%;
+}
+.answer {
+  padding: 1em 0.5em;
+  margin-bottom: 0.5em;
+  background: #ccc;
+  text-align: left;
+  opacity: 0.85;
+}
+.answer:hover {
+  opacity: 1;
+}
+.success {
+  background: #00ffac;
+}
+.failure {
+  background: #ff6868;
+}

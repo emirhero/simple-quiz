@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Emir Hero</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="quiz" >
+  <h3>{{ question }}</h3>
+  <single-answer  class="answer" v-for="(answer, index) in answers" :answer="answer" :key="index" v-on:increment="incrementTotal"></single-answer>
+  <span> Bodovi: {{ points }} </span>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
